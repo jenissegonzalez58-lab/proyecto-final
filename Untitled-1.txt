@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salud Mental</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background: linear-gradient(135deg, #87CEFA, #C8A2C8, #FFF9B0);
+    color:white;
+    line-height:1.7;
+
+    /* MARCO */
+    border:15px solid white;
+    margin:15px;
+    border-radius:25px;
+    overflow-x:hidden;
+    box-shadow:0 0 25px rgba(0,0,0,0.3);
+}
+
+header{
+    text-align:center;
+    padding:50px 20px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+}
+
+header h1{
+    font-size:60px;
+    color:#ffffff;
+    text-shadow:3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.menu{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.menu a{
+    text-decoration:none;
+}
+
+.menu button{
+    background:#ffffff;
+    color:#8A5FA2;
+    padding:15px 35px;
+    border:none;
+    border-radius:20px;
+    font-weight:bold;
+    font-size:18px;
+    cursor:pointer;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.menu button:hover{
+    transform:scale(1.05);
+    background:#FFF9B0;
+    color:#5B4B8A;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.galeria{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:40px;
+}
+
+.galeria img{
+    width:300px;
+    height:200px;
+    object-fit:cover;
+    border-radius:20px;
+    border:5px solid white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.video{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.video video{
+    width:80%;
+    max-width:800px;
+    border-radius:20px;
+    border:5px solid white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.info{
+    background: rgba(255,255,255,0.20);
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    margin-bottom:50px;
+}
+
+.info h2{
+    text-align:center;
+    margin-bottom:20px;
+    font-size:40px;
+    color:#FFF9B0;
+}
+
+.formulario{
+    background:#F8F4FF;
+    color:#444;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    margin-bottom:40px;
+}
+
+.formulario h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#8A5FA2;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+input{
+    padding:15px;
+    border-radius:10px;
+    border:2px solid #C8A2C8;
+    font-size:16px;
+}
+
+button{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#87CEFA;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#C8A2C8;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    font-size:12px;
+    color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <h1>SALUD MENTAL</h1>
+
+    <div class="menu">
+
+        <a href="#imagenes">
+            <button>Imágenes</button>
+        </a>
+
+        <a href="#video">
+            <button>Video</button>
+        </a>
+
+        <a href="#informacion">
+            <button>Información</button>
+        </a>
+
+    </div>
+
+</header>
+
+<div class="container">
+    
+    <section id="imagenes">
+
+        <div class="galeria">
+
+            <img src="c:\Users\ingri\Downloads\WhatsApp Image 2026-05-27 at 5.10.56 PM.jpeg"alt="ilustracion de cerebro levantando pesas:simbolizando fortaleza mental y aprendizaje">
+
+            <img src="d:\WhatsApp Image 2026-05-27 at 5.10.57 PM.jpeg" alt="cerebro haciendo ejercicio:representando el entrenamiento y cuidado de nuestra mente">
+                                                                                                                                                                                                                                                                   
+            <img src="d:\WhatsApp Image 2026-05-28 at 8.36.08 AM.jpeg" alt="alumnas del CECYTE mostrando amistad y apoyo mutuo,base de la salud mental">
+
+        </div>
+
+    </section>
+
+    <section id="video">
+
+        <div class="video">
+
+           
+           <video controls>
+    <source src="D:\WhatsApp Video 2026-05-28 at 4.27.13 PM.mp4" type="video/mp4">
+                                                                                             
+
+        </div>
+
+    </section>
+
+    <section id="informacion">
+
+        <div class="info">
+
+            <h2>Importancia de la Salud Mental</h2>
+
+            <p>
+La salud mental es una parte esencial de la vida de las personas, ya que influye en la manera de pensar, sentir y actuar.  
+La Constitución Política de los Estados Unidos Mexicanos, en el Artículo 4°, establece que todas las personas tienen derecho a la protección de la salud, incluyendo la salud mental. Esto significa que el Estado y las instituciones deben garantizar apoyo, orientación y espacios adecuados para prevenir y atender problemas emocionales y psicológicos. Sin embargo, en muchas comunidades y escuelas todavía existen limitaciones para brindar este tipo de apoyo.
+ 
+El principal objetivo de este proyecto es promover el cuidado integral de la salud mental mediante la concientización, la educación emocional y el acceso a herramientas de apoyo. 
+            </p>
+
+            <br>
+
+            <p>
+El proyecto también plantea diferentes estrategias para dar a conocer la importancia de la salud mental en distintos ámbitos de la sociedad.
+•	En las empresas
+Se busca que el botiquín emocional llegue a trabajadores, familiares y amigos para que cada vez más personas conozcan herramientas que les ayuden a cuidar su bienestar emocional tanto en el trabajo como en su vida diaria.
+•	En la comunidad
+Se propone promocionar el proyecto en lugares públicos y concurridos para que las personas conozcan la utilidad del botiquín emocional y aprendan sobre la importancia de la salud mental.
+•	En la escuela
+Dentro de las instituciones educativas se pretende colocar carteles informativos para que estudiantes y maestros comprendan la importancia del bienestar emocional y la prevención de problemas psicológicos.
+•	En redes sociales
+Las redes sociales servirán para compartir información, consejos y contenido relacionado con la salud mental, permitiendo llegar a más personas y fomentar una cultura de apoyo y comprensión.
+Otro aspecto importante es que muchas personas no buscan ayuda debido al miedo al rechazo o a las críticas sociales. Esto provoca que los problemas emocionales aumenten y que las personas no reciban el apoyo necesario. Por esa razón, el proyecto busca fomentar una cultura de respeto, empatía y comprensión hacia quienes enfrentan dificultades emocionales.
+Además, se menciona un ejemplo relacionado con el uso de las matemáticas para representar cambios emocionales. Se analizó cómo una persona redujo su nivel de estrés después de utilizar una herramienta del botiquín emocional. Mediante una gráfica y el cálculo de la pendiente de una recta, se observó que el nivel de estrés disminuyó de manera significativa. Esto demuestra que las matemáticas también pueden aplicarse para representar situaciones de la vida cotidiana y analizar cambios emocionales.
+El hacer deporte también ayuda ya que te ayuda a liberar ese estrés, tristeza, pereza, enojo, al igual que recibir palabras positivas.
+            </p>
+
+            <br>
+
+            <p>
+En conclusión, el cuidado de la salud mental es fundamental para lograr una mejor calidad de vida y mantener un equilibrio emocional.
+            </p>
+
+        </div>
+
+    </section>
+
+    
+    <div class="formulario">
+
+        <h2>Cuestionario</h2>
+
+        <form>
+
+            <input type="text" placeholder="Ingresa tu nombre" required>
+                                                                                            
+            <input type="email" placeholder="Ingresa tu correo electrónico" required>
+
+            <input type="tel" placeholder="Ingresa tu teléfono" required>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<footer>
+    creado por: Agostadero Palma, González Tierrablanca, Hernández Sánchez, Pérez Jiménez/6toA
+</footer>
+
+</body>
+</html>
